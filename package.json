@@ -2,7 +2,7 @@
   "name": "capitales-call",
   "version": "1.0.0",
   "description": "Call by a bot using twilio, it asks about capitals of Departaments of Colombia",
-  "main": "index.html",
+  "main": "call.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node call.js"
