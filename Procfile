@@ -1,1 +1,1 @@
-web: node call.js
+web: node index.html
