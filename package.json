@@ -1,0 +1,24 @@
+{
+  "name": "capitales-call",
+  "version": "1.0.0",
+  "description": "Call by a bot using twilio, it asks about capitals of Departaments of Colombia",
+  "main": "call.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twilio",
+    "dialogflow",
+    "Machine_learning",
+    "Artificial_intelillence"
+  ],
+  "author": "Johan Higuita",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "twilio": "^3.28.0"
+  }
+}

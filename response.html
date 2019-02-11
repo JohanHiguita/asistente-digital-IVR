@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Llama al asistente digital y responde las preguntas sobre las capitales de los departamentos de Colombia">
+  <meta name="author" content="Johan Higuita">
+  <link rel="icon" href="assets/images/favicon.ico">
+
+  <title>Asistente digital de llamadas</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto align-items-center">
+
+    <main role="main" class="inner cover">
+      <div class="conte mb-2">
+        <i class="fas fa-phone text-success response-call"></i>
+      </div>
+      <h4 class="cover-heading">Sí ya estás registrado, en unos segundos recibirás una llamada...</h4>  
+      
+    </main>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="instruccionesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success" id="exampleModalLabel">Instrucciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <ol class="text-left">
+            <li>Antes de realizar la llamada, se debe autorizar el número celular que recibirá la llamada. Para esto envíe su número al correo <em class="text-success">higuitajohan@gmail.com</em> o comuniquese conmigo al <em class="text-success">(+57) 3207718655</em></li>
+            <li>Una vez yo reciba su solicitud, registraré su número y usted recibirá un mensaje de texto con un código de aprobación que me enviará de regreso</li>
+            <li>Una vez aprobado, recibirá la llamada</li>
+            <li>Cuando reciba la llamada, primero escuchará un mensaje informativo en ingles, una vez finalice oprima cualquier tecla y empezará la conversación en la cual usted puede preguntar sobre la capital de ciertos departamentos de Colombia. Debe esperar unos segundos a que el asistente responda a sus preguntas.</li>
+          </ol>
+          <div class="alert alert-warning text-left" role="alert">
+            <small><b><i class="fas fa-bug"></i> Nota: </b> La implementación del <em>Machine Learning</em> aún está en proceso, la aplicación tiene algunos bugs:<br /> No reconoce departamentos que llevan tílde: <br />
+            Atlántico, Bolívar, Boyacá, Caquetá, Chocó, Córdoba, Guainía, Vaupés y Quindío.</small>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+    </html>
