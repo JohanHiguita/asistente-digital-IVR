@@ -4,7 +4,7 @@
   "description": "Call by a bot using twilio, it asks about capitals of Departaments of Colombia",
   "main": "call.js",
   "scripts": {
-    "start": "node call.js"
+    "start": "node call"
   },
   "keywords": [
     "Twilio",
